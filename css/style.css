@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  min-width: 96vw;
+  max-width: 96vw;
+  min-height: 96vh;
+  max-height: 96vh;
+  background-color: #000036;
+  box-shadow: 0 0 24px darkseagreen;
+}
+.headText {
+  display: table-cell;
+  min-width: 90vw;
+  max-width: 90vw;
+  min-height: 10vh;
+  max-height: 10vh;
+  text-align: center;
+  vertical-align: middle;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* margin: auto; */
+}
+.containerOnHTML { /* .containerNoHTML in index.js */ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-width: 30vw;
+  max-width: 30vw;
+  min-height: 40vh;
+  max-height: 40vh;
+  margin: 2%;
+  border: 2px solid cadetblue;
+  border-radius: 2%;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: pink;
+  min-height: 10vh;
+  max-height: 10vh;
+}
