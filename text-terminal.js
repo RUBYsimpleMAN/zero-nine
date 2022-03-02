@@ -105,19 +105,27 @@ const arrOfDigits = [
 
 const stringteger = () => new String()
 
+console.log(stringteger)
+
 const stringtegerLength = stringteger.length()
 returnedArray = []
 
 const trinityArr = arrOfDigits.map( (element, index) => {
   if (stringtegerLenght == 3) {
-    for (let i=0; i=9; i++) {
-      returnedArray.push(element = index)
+    if (stringteger.slice(0,0) == index) {
+      returnedArray.push(element)
+    }
+    if (stringteger.slice(0,0) == index) {
+      returnedArray.push(element)
+    }
+    if (stringteger.slice(0,0) == index) {
+      returnedArray.push(element)
     }
   }
   if (stringtegerLenght == 2) {
     returnedArray.push(0)
     for (let i=0; i=9; i++) {
-      returnedArray.push(element = index)
+      if (i == index) returnedArray.push(element)
     }
   }
   if (stringtegerLenght == 1) {
